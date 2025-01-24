@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>ሀ ለ መ ጨዋታ</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin-top: 20px;
+            color: #333;
+        }
+
+        canvas {
+            border: 2px solid #333;
+            margin-top: 20px;
+        }
+
+        #controls {
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #winMessage {
+            margin-top: 20px;
+            font-size: 24px;
+            color: #28a745;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>ፊደል ጨዋታ</h1>
+    <canvas id="hanoiCanvas" width="600" height="300"></canvas>
+    <div id="controls">
+        <button id="restartButton">ዳግም ጀምር</button>
+    </div>
+    <div id="winMessage"></div>
+<script src="scriptt.js" ></script>
+</body>
+</html>
